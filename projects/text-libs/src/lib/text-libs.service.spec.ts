@@ -13,4 +13,16 @@ describe('TextLibsService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
+
+  it('should convert from plain text to camel case', () => {
+    expect(service.camelCase('my plan')).toEqual('myPlan');
+  });
+
+  it ('should convert from plain text to kebab case', () => {
+    expect(service.kebabCase('my plan')).toEqual('my-plan');
+  });
+
+  it ('should convert from plain text to snake case', () => {
+    expect(service.snakeCase('my plan')).toEqual('my_plan');
+  });
 });

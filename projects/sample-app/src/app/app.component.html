@@ -343,7 +343,10 @@
       </g>
     </svg>
 
-    <span>{{ title }} app is running!</span>
+    <span>{{ title }} is running!</span>
+    <span>... or is that {{ this.textLibs.kebabCase(title) }}</span>
+    <span>... or maybe {{ this.textLibs.snakeCase(title) }}</span>
+    <span>... or {{ this.textLibs.camelCase(title) }}</span>
 
     <svg id="rocket-smoke" xmlns="http://www.w3.org/2000/svg" width="516.119" height="1083.632" viewBox="0 0 516.119 1083.632">
       <title>Rocket Ship Smoke</title>
