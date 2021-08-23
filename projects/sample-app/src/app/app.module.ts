@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SimpleHeaderModule } from 'ui-libs';
+import { SimpleHeaderModule, SimpleChartsModule } from 'ui-libs';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,8 @@ import { SimpleHeaderModule } from 'ui-libs';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SimpleHeaderModule
+    SimpleHeaderModule,
+    SimpleChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

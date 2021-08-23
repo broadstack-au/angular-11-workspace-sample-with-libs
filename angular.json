@@ -27,10 +27,8 @@
               "projects/sample-app/src/favicon.ico",
               "projects/sample-app/src/assets"
             ],
-            "styles": [
-              "projects/sample-app/src/styles.scss"
-            ],
-            "scripts": []
+            "styles": ["projects/sample-app/src/styles.scss"],
+            "scripts": ["node_modules/apexcharts/dist/apexcharts.min.js"]
           },
           "configurations": {
             "production": {
@@ -90,9 +88,7 @@
               "projects/sample-app/src/favicon.ico",
               "projects/sample-app/src/assets"
             ],
-            "styles": [
-              "projects/sample-app/src/styles.scss"
-            ],
+            "styles": ["projects/sample-app/src/styles.scss"],
             "scripts": []
           }
         },
@@ -104,9 +100,7 @@
               "projects/sample-app/tsconfig.spec.json",
               "projects/sample-app/e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
@@ -156,9 +150,7 @@
               "projects/text-libs/tsconfig.lib.json",
               "projects/text-libs/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -196,9 +188,7 @@
               "projects/ui-libs/tsconfig.lib.json",
               "projects/ui-libs/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
