@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { TextLibsService } from './text-libs.service';
+import { CaseJugglingService } from './index.service';
 
-describe('TextLibsService', () => {
-  let service: TextLibsService;
+describe('CaseJugglingService', () => {
+  let service: CaseJugglingService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(TextLibsService);
+    service = TestBed.inject(CaseJugglingService);
   });
 
   it('should be created', () => {

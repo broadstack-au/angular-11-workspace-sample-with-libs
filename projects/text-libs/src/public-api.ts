@@ -2,4 +2,4 @@
  * Public API Surface of text-libs
  */
 
-export * from './lib/text-libs.service';
+export * from './lib/case-juggling/index.service';

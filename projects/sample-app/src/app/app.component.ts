@@ -1,12 +1,15 @@
-import { Component } from '@angular/core';
-import { TextLibsService } from 'text-libs'
+import { Component, OnInit } from '@angular/core';
+import { CaseJugglingService } from 'text-libs'
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  constructor(public textLibs: TextLibsService) {
+export class AppComponent implements OnInit  {
+  constructor(public caseJuggling: CaseJugglingService) {
   }
   title = 'Sample app';
+  ngOnInit() {
+  }
 }

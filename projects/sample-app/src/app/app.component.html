@@ -344,9 +344,9 @@
     </svg>
 
     <span>{{ title }} is running!</span>
-    <span>... or is that {{ this.textLibs.kebabCase(title) }}</span>
-    <span>... or maybe {{ this.textLibs.snakeCase(title) }}</span>
-    <span>... or {{ this.textLibs.camelCase(title) }}</span>
+    <span>... or is that {{ this.caseJuggling.kebabCase(title) }}</span>
+    <span>... or maybe {{ this.caseJuggling.snakeCase(title) }}</span>
+    <span>... or {{ this.caseJuggling.camelCase(title) }}</span>
 
     <svg id="rocket-smoke" xmlns="http://www.w3.org/2000/svg" width="516.119" height="1083.632" viewBox="0 0 516.119 1083.632">
       <title>Rocket Ship Smoke</title>
@@ -356,7 +356,7 @@
   </div>
 
   <!-- Resources -->
-  <h2>Resources</h2>
+  <eg-simple-header [level]="'1'" [content]="'Header Content'"></eg-simple-header>
   <p>Here are some links to help you get started:</p>
 
   <div class="card-container">

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UiLibsComponent } from './ui-libs.component';
+import { SimpleHeaderComponent } from './index.component';
 
-describe('UiLibsComponent', () => {
-  let component: UiLibsComponent;
-  let fixture: ComponentFixture<UiLibsComponent>;
+describe('SimpleHeaderComponent', () => {
+  let component: SimpleHeaderComponent;
+  let fixture: ComponentFixture<SimpleHeaderComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ UiLibsComponent ]
+      declarations: [ SimpleHeaderComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UiLibsComponent);
+    fixture = TestBed.createComponent(SimpleHeaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
